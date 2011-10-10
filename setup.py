@@ -1,6 +1,7 @@
 import os
 from setuptools import setup, find_packages
-from brzipcode import VERSION
+
+VERSION = (0, 1, 0)
 
 f = open(os.path.join(os.path.dirname(__file__), 'README'))
 readme = f.read()

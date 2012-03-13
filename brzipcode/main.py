@@ -2,7 +2,7 @@
 import requests
 import json
 
-SERVICE_URL = 'http://brzipcode.appspot.com/info?zip_code=%(zip_code)s&token=%(token)s&format=json'
+SERVICE_URL = 'http://brzipcode.com/api/v1/zipcode.json?q=%(zip_code)s&token=%(token)s'
 
 class BRZipCode(object):
     @classmethod

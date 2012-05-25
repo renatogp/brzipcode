@@ -11,7 +11,7 @@ setup(
     name='brzipcode',
     version='.'.join(map(str, VERSION)),
     description='brzipcode is a lightweight app for retrieving brazilian addresses from a zip code',
-    long_description='',
+    long_description=readme,
     classifiers=[
         'Programming Language :: Python',
         'Topic :: Software Development :: Libraries :: Python Modules',

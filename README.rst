@@ -1,7 +1,7 @@
 brzipcode
 =========
 
-``brzipcode`` é uma lib Python simples para retornar o endereço a partir do CEP, com dados provenientes do webservice ``brzipcode.appspot.com``.
+``brzipcode`` é uma lib Python simples para retornar o endereço a partir do CEP, com dados provenientes do webservice ``brzipcode.com``.
 
 Para instalar execute: ::
 
@@ -14,7 +14,7 @@ E então usar conforme abaixo: ::
     >>> print BRZipCode.get('04538132', token='ycmVyGJO3HAw...') # *
     {u'status': True, u'city': u'S\xe3o Paulo', u'state': u'SP', u'neighborhood': u'Itaim Bibi', u'address': u'Avenida Brigadeiro Faria Lima - de 3252 ao fim - lado par'}
 
-** Para solicitar um token acesse http://brzipcode.appspot.com/ **
+** Para solicitar um token acesse http://brzipcode.com/ (gratuito) **
 
 Caso não encontre nenhum resultado: ::
     

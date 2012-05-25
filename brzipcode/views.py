@@ -1,5 +1,4 @@
 # coding: utf-8
-import requests
 from django.conf import settings
 from django.http import HttpResponse
 from main import BRZipCode
